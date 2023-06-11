@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.home {
+    max-width: 1530px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.home .head {
+    background: url(../img/background\ \(2\).png);
+}
+
+.home .head .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px;
+}
+
+.home .head .navbar .groupmenu a {
+    margin: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #353535;
+}
+
+.home .head .navbar .rightmenu a {
+    margin: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #353535;
+}
+
+.home .head .center h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #353535;
+    margin-top: 100px;
+}
+
+.home .head .center p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #353535;
+    margin-top: 16px;
+}
+
+.home .head .center .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 160px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.home .head .center .box .first {
+    margin-left: 24px;
+    padding-bottom: 10px;
+}
+
+.home .head .center .box .first p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6C7584;
+}
+
+.home .head .center .box .first h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #353535;
+}
+
+.home .head .center .box .line {
+    border-top: 1px solid #D9DFEC;
+}
+
+.home .head .center .box .rasm img {
+    width: 30px;
+}
+
+.home .head .center .box .btn {
+    background: #E12020;
+    border-radius: 8px;
+    border: none;
+}
+
+.home .head .center .box .btn p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
