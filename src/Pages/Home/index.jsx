@@ -6,6 +6,8 @@ import map from '../img/map.png';
 import yellow from '../img/yellow.png';
 import farro from '../img/farro 1.png';
 import arrow from '../img/right-arrow (1) 1.png';
+import pak from '../img/pak.png';
+
 
 
 const Home = () => {
@@ -54,7 +56,53 @@ const Home = () => {
                         </div>
 
                     </div>
-                    b ghcfgxtrfyubkhu
+                    
+                </div>
+            </div>
+            <div className="blok">
+                <h1>BEST GROCERY DEALS FOR KIWIS</h1>
+                <p>Plan your shopping, find cheapest grocery prices and save more</p>
+                <div className="items">
+                    <div className="item">
+                        <div className="btn2">
+                            <p>UP TO 50%</p>
+                        </div>
+                        <img src={pak} />
+                        <h4>PAK’nSAVE</h4>
+                        <p>321 products with discounts</p>
+                    </div>
+                    <div className="item">
+                        <div className="btn2">
+                            <p>UP TO 50%</p>
+                        </div>
+                        <img src={pak} />
+                        <h4>PAK’nSAVE</h4>
+                        <p>321 products with discounts</p>
+                    </div>
+                    <div className="item">
+                        <div className="btn2">
+                            <p>UP TO 50%</p>
+                        </div>
+                        <img src={pak} />
+                        <h4>PAK’nSAVE</h4>
+                        <p>321 products with discounts</p>
+                    </div>
+                    <div className="item">
+                        <div className="btn2">
+                            <p>UP TO 50%</p>
+                        </div>
+                        <img src={pak} />
+                        <h4>PAK’nSAVE</h4>
+                        <p>321 products with discounts</p>
+                    </div>
+                    <div className="item">
+                        <div className="btn2">
+                            <p>UP TO 50%</p>
+                        </div>
+                        <img src={pak} />
+                        <h4>PAK’nSAVE</h4>
+                        <p>321 products with discounts</p>
+                    </div>
                 </div>
             </div>
         </div>

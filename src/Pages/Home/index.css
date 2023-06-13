@@ -16,6 +16,7 @@
 
 .home .head {
     background: url(../img/background\ \(2\).png);
+    height: 612px;
 }
 
 .home .head .navbar {
@@ -99,9 +100,13 @@
 }
 
 .home .head .center .box .btn {
+    display: flex;
+    align-items: center;
     background: #E12020;
     border-radius: 8px;
     border: none;
+    padding: 22px 21px;
+    margin: 8px;
 }
 
 .home .head .center .box .btn p {
@@ -110,5 +115,58 @@
     line-height: 25px;
     text-align: center;
     text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.home .blok {
+    background: #ffffff;
+}
+
+.home .blok h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.home .blok p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #353535;
+    margin-top: 16px;
+}
+
+.home .blok .items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.home .blok .items .item {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(163, 194, 217, 0.3);
+    border-radius: 8px;
+}
+
+.home .blok .items .item .btn2 {
+    background: #E12020;
+    border-radius: 5px;
+    margin-left: 90px;
+}
+
+.home .blok .items .item .btn2 p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
     color: #FFFFFF;
 }
