@@ -149,6 +149,7 @@
     margin-top: 40px;
     margin-left: 80px;
     margin-right: 80px;
+    margin-bottom: 40px;
 }
 
 .home .blok .items .item {
@@ -160,7 +161,8 @@
 .home .blok .items .item .btn2 {
     background: #E12020;
     border-radius: 5px;
-    margin-left: 90px;
+    margin-left: 100px;
+    margin-right: 5px;
 }
 
 .home .blok .items .item .btn2 p {
@@ -169,4 +171,76 @@
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.home .blok .items .item img {
+    margin-top: 8px;
+    margin-left: 62px;
+    margin-right: 62px;
+    /* margin-bottom: 108px; */
+}
+
+.home .blok .items .item h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+    margin-top: 16px;
+}
+
+.home .blok .items .item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+    margin: 16px;
+}
+
+.home .popular .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .popular .box h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #353535;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.home .popular p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #353535;
+    margin-top: 16px;
+}
+
+.groups {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.groups .part1 {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(163, 194, 217, 0.3);
+    border-radius: 8px;
+}
+
+.groups .part1 .organic {
+    background: #FFB526;
+    opacity: 0.2;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

@@ -7,6 +7,15 @@ import yellow from '../img/yellow.png';
 import farro from '../img/farro 1.png';
 import arrow from '../img/right-arrow (1) 1.png';
 import pak from '../img/pak.png';
+import nw from '../img/nw.png';
+import logooo from '../img/logoooo.png';
+import farroo from '../img/farro 2.png';
+import four from '../img/4.png';
+import line from '../img/Line 2.png';
+import fruit from '../img/fruit.png';
+import salad from '../img/salad.png';
+import image1 from '../img/image 1.png';
+
 
 
 
@@ -56,7 +65,7 @@ const Home = () => {
                         </div>
 
                     </div>
-                    
+
                 </div>
             </div>
             <div className="blok">
@@ -69,39 +78,88 @@ const Home = () => {
                         </div>
                         <img src={pak} />
                         <h4>PAK’nSAVE</h4>
-                        <p>321 products with discounts</p>
+                        <p>321 products with <br /> discounts</p>
                     </div>
                     <div className="item">
                         <div className="btn2">
                             <p>UP TO 50%</p>
                         </div>
-                        <img src={pak} />
-                        <h4>PAK’nSAVE</h4>
-                        <p>321 products with discounts</p>
+                        <img src={nw} />
+                        <h4>New World</h4>
+                        <p>321 products with <br /> discounts</p>
                     </div>
                     <div className="item">
                         <div className="btn2">
                             <p>UP TO 50%</p>
                         </div>
-                        <img src={pak} />
-                        <h4>PAK’nSAVE</h4>
-                        <p>321 products with discounts</p>
+                        <img src={logooo} />
+                        <h4>countdown</h4>
+                        <p>321 products with <br /> discounts</p>
                     </div>
                     <div className="item">
                         <div className="btn2">
                             <p>UP TO 50%</p>
                         </div>
-                        <img src={pak} />
+                        <img src={farroo} />
                         <h4>PAK’nSAVE</h4>
-                        <p>321 products with discounts</p>
+                        <p>321 products with <br /> discounts</p>
                     </div>
                     <div className="item">
                         <div className="btn2">
                             <p>UP TO 50%</p>
                         </div>
-                        <img src={pak} />
+                        <img src={four} />
                         <h4>PAK’nSAVE</h4>
-                        <p>321 products with discounts</p>
+                        <p>321 products with <br /> discounts</p>
+                    </div>
+                </div>
+            </div>
+            <div className="popular">
+                <div className="box">
+                    <img src={line} />
+                    <h1>Popular grocery sets</h1>
+                    <img src={line} />
+                </div>
+                <p>Products are shown by your location</p>
+                <div className="groups">
+                    <div className="part1">
+                        <div className="organic">
+                            <img src={fruit} />
+                            <h1>Organic Fresh Drinks </h1>
+                            <img src={image1} />
+                        </div>
+                        <div className="fruit">
+                            {/* <img src={} /> */}
+                            <h1></h1>
+                            <span><p></p></span>
+                            <button></button>
+                        </div>
+                    </div>
+                    <div className="part1">
+                        <div className="organic">
+                            <img src={fruit} />
+                            <h1>Organic Fresh Drinks </h1>
+                            <img src={image1} />
+                        </div>
+                        <div className="fruit">
+                            <img src="" alt="" />
+                            <h1></h1>
+                            <span><p></p></span>
+                            <button></button>
+                        </div>
+                    </div>
+                    <div className="part1">
+                        <div className="organic">
+                            <img src={fruit} />
+                            <h1>Organic Fresh Drinks </h1>
+                            <img src={image1} />
+                        </div>
+                        <div className="fruit">
+                            <img src="" alt="" />
+                            <h1></h1>
+                            <span><p></p></span>
+                            <button></button>
+                        </div>
                     </div>
                 </div>
             </div>
